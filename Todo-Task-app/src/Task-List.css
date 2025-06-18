@@ -1,0 +1,41 @@
+.task-list-container {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid #d5d0d0;
+  border-radius: 12px;
+}
+.NewTaskEntry {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  font-family: cursive;
+  width: 20%;
+  height: 20%;
+  border: 2px solid #c11313;
+  border-radius: 12px;
+}
+.task-list {
+  background-color: darkslategrey;
+  font-family: cursive;
+}
+.task-details {
+  font-family: cursive;
+  background-color: darkslategrey;
+  width: 20%;
+  height: 20%;
+  border: 2px solid #c11313;
+  border-radius: 12px;
+  text-align: center;
+}
+.button {
+  border-radius: 12px;
+}
+.button:hover {
+  background-color: #d5d0d0; /* Change background color on hover */
+  color: #000; /* Change text color on hover */
+}

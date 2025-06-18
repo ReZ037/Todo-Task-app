@@ -2,13 +2,16 @@
 
 /* Center the content in the middle of the screen */
 .box {
+  flex-direction: column; /* Stack items vertically */
   margin: auto; /* Center the box horizontally */
   padding: 20px; /* Add padding inside the box */
   max-width: 800px; /* Set a maximum width for the box */
+  height: 600px; /* Set a fixed height for the box */
   display: flex;
-  flex-direction: column;
-  justify-content: center; /* Horizontally center */
+  justify-content: space-around; /* Horizontally center */
   align-items: center; /* Vertically center */
+  /*border: 2px solid #d5d0d0; /* Border color */
+  /*border-radius: 12px; /* Rounded corners */
 }
 .Title {
   font-size: 3em;
@@ -21,4 +24,11 @@
   color: #d5d0d0;
   text-align: center;
   white-space: pre-wrap; /* Preserve whitespace and line breaks */
+}
+.button {
+  border-radius: 12px;
+}
+.button:hover {
+  background-color: #d5d0d0; /* Change background color on hover */
+  color: #000; /* Change text color on hover */
 }
