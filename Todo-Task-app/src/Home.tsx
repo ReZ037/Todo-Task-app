@@ -11,6 +11,7 @@ function Home() {
           tasks as needed. The app is designed to be simple and easy to use, so
           you can focus on what matters most to you.
         </div>
+        <button className="button">Get Started!</button>
       </div>
     </div>
   );

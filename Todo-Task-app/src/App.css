@@ -9,7 +9,8 @@ body {
 }
 
 .app-background {
-  background-image: url("/colorful-planets-4k-space-erd5m7yzj9vpox9r.jpg");
+  /*background-image: url("/colorful-planets-4k-space-erd5m7yzj9vpox9r.jpg");*/
+  background-color: black;
   background-size: cover;
   box-shadow: inset 0 0 2000px rgba(0, 0, 0, 0.5);
   height: 100vh;
