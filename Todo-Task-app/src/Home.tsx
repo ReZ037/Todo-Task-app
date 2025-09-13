@@ -1,5 +1,6 @@
 import "./Home.css";
-
+import { Link } from "react-router-dom";
+// Function contains the basic description of the app and a button that links to the task list
 function Home() {
   return (
     <div>
@@ -11,7 +12,9 @@ function Home() {
           tasks as needed. The app is designed to be simple and easy to use, so
           you can focus on what matters most to you.
         </div>
-        <button className="button">Get Started!</button>
+        <Link to="/Task-List">
+          <button className="button">Get Started!</button>
+        </Link>
       </div>
     </div>
   );
