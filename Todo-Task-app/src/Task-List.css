@@ -16,7 +16,7 @@
   font-family: cursive;
   width: 20%;
   height: 20%;
-  border: 2px solid #c11313;
+  /*border: 2px solid #c11313;*/
   border-radius: 12px;
 }
 .task-list {
@@ -28,14 +28,23 @@
   background-color: darkslategrey;
   width: 20%;
   height: 20%;
-  border: 2px solid #c11313;
+  /*border: 2px solid #c11313;*/
   border-radius: 12px;
   text-align: center;
 }
-.button {
+.button-submit {
   border-radius: 12px;
 }
-.button:hover {
+.button-submit:hover {
   background-color: #d5d0d0; /* Change background color on hover */
   color: #000; /* Change text color on hover */
+}
+
+.button-delete {
+  /*background-color: #ef4444;*/
+  /*color: white;*/
+}
+
+.button-delete:hover {
+  /*background-color: #dc2626;*/
 }

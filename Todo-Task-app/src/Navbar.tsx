@@ -1,5 +1,7 @@
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+
+// Function contains a list of the differnt routes on the navbar
 const Navbar = () => {
   return (
     <nav className="navbar">
